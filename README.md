@@ -19,3 +19,8 @@ What we need to do:
 
 I'll like you guys to go through it and decide which pages you want to work on so we can get going. 
 And also let us inform each other on what we are individually working on to avoid conflict.
+
+
+NB: 
+  -The theme is "Amelia" from bootswatch
+  http://bootswatch.com/amelia/
