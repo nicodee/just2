@@ -123,3 +123,7 @@ a, a:hover{
 .color-red{
 	color: #ad1d28;
 }
+
+.hidden-info {
+	display: none;
+}

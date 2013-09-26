@@ -3,6 +3,7 @@ $(document).ready(function () {
 	$(".answer-action").tooltip();
 	perform_action();
 	thumbs();
+	ask();
 })
 
 function perform_action() {
@@ -62,4 +63,14 @@ function thumbs() {
 				$(this).addClass("color-red");
 			}
 	});
+}
+
+
+function ask() {
+	$(".btn.btn-success.submit").click(function(){
+		console.log($(this));
+		$(".hidden-info").css("display", "block");
+		$(".col-lg-12.answer").hide();
+		$(".panel-collapse.collapse.in").removeClass("in");
+	})
 }
