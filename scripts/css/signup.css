@@ -29,5 +29,6 @@ body {
 .well {
 	/*padding-top: 8px;*/	
 	/*padding-bottom: 8px;*/
+	margin: 0;
 	background-color: rgba(13, 116, 124, 0.26);
 }
