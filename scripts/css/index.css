@@ -1,0 +1,46 @@
+.navbar-brand {
+	float: left;
+	padding: 15px 15px;
+	font-size: 40px;
+	line-height: 20px;
+}
+
+#content{
+	margin-top: 300px;
+}
+
+.form-group, .form-horizontal {
+	margin-bottom: 0px;
+}
+
+.form-group div {
+	padding-right: 3px;
+	padding-left: 3px;
+}
+
+.form-group div button {
+	width: 100%
+}
+
+.well {
+	padding-top: 8px;
+	padding-bottom: 8px;
+	background-color: rgba(13, 116, 124, 0.26);
+}
+
+a, a:hover{
+	color: #fff;
+	text-decoration: none;
+}
+
+.centered-range h4{
+	margin-left: 15px;
+}
+
+body{
+	background-image: 	url("../images/index.png");
+	/*background-image: url("http://stuffpoint.com/finger-art/image/168330-finger-art-finger.jpg");*/
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100% 100%;
+}

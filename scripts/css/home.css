@@ -1,0 +1,120 @@
+.navbar-brand {
+	float: left;
+	padding: 15px 15px;
+	font-size: 30px;
+	line-height: 20px;
+}
+
+#content{
+	margin-top: 50px;
+}
+
+.ques{
+	margin-top: -19px;	
+}
+
+.navbar-brand.header{
+	font-size: 20px;
+}
+
+.btn-action{
+	/*padding-left: 0px;
+	padding-right: 0px;*/
+}
+
+.btn-cancel{
+	/*padding-left: 0px;
+	padding-right: 0px;
+	margin-right: -28px;
+	margin-left: -0px;*/
+}
+
+.btn-submit {
+	/*padding-left: 0px;
+	padding-right: 0px;
+	margin-left: 20px;*/
+}
+
+a, a:hover{
+	color: #fff;
+	text-decoration: none;
+}
+
+.btn-cancel a, a:hover{
+	/*color: #000;
+	text-decoration: none;*/
+}
+
+.stats, .trending{
+	margin-top: 20px;
+}
+
+.profile-detail {
+	margin-top: 10px;
+}
+
+.stats {
+	margin-left: -20px;	
+}
+
+.current-game h1 {
+	margin-top: -40px;
+}
+
+.question-legend{
+	font-size: 20px;
+	/*color: #ad1d28;*/
+	color: #debb27;
+}
+
+.answer {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.glyphicon-thumbs-up, .glyphicon-thumbs-down {
+	color: #444;
+}
+
+.glyphicon-thumbs-up:hover, .glyphicon-thumbs-down:hover {
+	color: #ad1d28;
+}
+
+.label-success.answer-action{
+	margin-left: 4px;
+	margin-right: 4px;
+}
+
+.container{
+	margin-bottom: 100px;
+}
+
+.badge-messages {
+	background-color: #444;
+}
+
+.new-game-container{
+	margin-top: 20px;
+	margin-left: 66%;
+}
+
+.answer-action {
+	cursor: pointer;
+}
+
+.panel-body{
+	background-color: #0d747c;
+}
+
+.panel{
+	border-color: #0d747c;
+}
+
+.new-game legend{
+	margin-bottom: 10px;
+}
+
+.new-game .radio{
+	padding-top: 0;
+	font-size: 20px;
+}
