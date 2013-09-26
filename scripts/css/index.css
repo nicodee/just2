@@ -19,10 +19,10 @@ a, a:hover{
 }
 
 body {
-	background-image: 	url("../images/signup.jpg");
+	background-image: 	url("../images/j2.jpg");
 	/*background-image: url("http://stuffpoint.com/finger-art/image/168330-finger-art-finger.jpg");*/
-	background-repeat: no-repeat;
-	background-position: center;
+	/*background-repeat: no-repeat;*/
+	/*background-position: center;*/
 	background-size: 100% 100%;
 }
 
