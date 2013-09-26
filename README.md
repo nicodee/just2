@@ -3,12 +3,12 @@ just2
 At the moment there are 9  pages. 
   - Home page "index.html"
   - Sign-up page "signup.html"
-  - Profile page "home.html"
+  - Profile page "home.html" [Nick]
   - Answers page "answers.html" contains answers a user has given to various questions
   - Questions page "questions.html" contains questions a user has asked on the platform so far
   - Following page "following.html" contains all the users a particular user is following 
   - Followers page "followers.html" conatins all the followers of a user
-  - Inbox page "inbox.html" 
+  - Inbox page "inbox.html"  [Samuel]
   - Game page "game.html" user initiates a game here
   
 Each one of the pages has a corresponding ".js" and ".css" file
