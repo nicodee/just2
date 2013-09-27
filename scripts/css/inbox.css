@@ -1,0 +1,44 @@
+#content {
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 27px;
+}
+
+.mail-detail {
+	height: 320px;
+	padding: 30px;
+	margin-top: 40px;
+	padding-left: 80px;
+	padding-right: 100px;
+	border-radius: 10px;
+	background-color:#E7DFD7;
+}
+
+#subject {
+	font-weight: bold;
+	font-size: 20;
+	color: black;
+}
+
+
+#from-to {
+	margin-left: 20px;
+}
+
+
+.badge-outline {
+    color: black;
+    border: 1px solid #999;
+    background-color: transparent;
+}
+
+#details {
+	position: absolute;
+	top: 100px;
+	left: 155px;
+	margin: 0 auto;
+}
+
+.m-right {
+	margin-right: 10px;
+}
