@@ -75,15 +75,15 @@
 }
 
 .user-1 {
-	background-image: url(../images/chewbacca.jpg);
+	background-image: url(../images/darthvader.jpg);
 }
 
 .user-2 {
-	background-image: url(../images/barf.jpg);
+	background-image: url(../images/darthvader.jpg);
 }
 
 .user-3 {
-	background-image: url(../images/darkhelmet.jpg);
+	background-image: url(../images/darthvader.jpg);
 }
 
 .user-4 {
@@ -91,22 +91,21 @@
 }
 
 .user-5 {
-	background-image: url(../images/leia.jpg);
+	background-image: url(../images/erica.jpg);
 }
 
 .user-6 {
-	background-image: url(../images/vespa.jpg);
+	background-image: url(../images/erica.jpg);
 }
 
 .user-7 {
-	background-image: url(../images/c3po.jpg);
+	background-image: url(../images/erica.jpg);
 }
 
 .user-8 {
-	background-image: url(../images/dotmatrix.jpg);
+	background-image: url(../images/erica.jpg);
 }
 
-/* Transparent Checkbox/radio hack: leave the checkbox on top, hide it with opacity 0 */
 
 .event label,
 .event input[type="radio"] {
