@@ -15,18 +15,19 @@ function perform_action() {
 
 		if(action=="burn"){
 			var burnt_panel = $(".panel."+panel);
-			console.log(burnt_panel.attr("class"));
+			// console.log(burnt_panel.attr("class"));
 			burn(action, burnt_panel);
 		}
 
 		else if(action=="proceed"){
 			var proceed_panel = $(".panel."+panel);
-			console.log(proceed_panel.attr("class"));
+			// console.log(proceed_panel.attr("class"));
+      proceed(action, proceed_panel);
 		}
 
 		else if(action=="follow"){
 			var follow_panel = $(".panel."+panel);
-			console.log(follow_panel.attr("class"));
+      follow(action, follow_panel, panel);
 		}
 	})
 }
@@ -35,11 +36,13 @@ function burn(action, burnt_panel) {
 	burnt_panel.remove();
 }
 
-function proceed () {
-
+function proceed(action, proceed_panel) {
+  console.log(action);
 }
 
-function follow () {
+function follow(action, follow_panel, panel) {
+  var number = parseInt($(".badge-following").text()) + 1;
+  $(".badge-following").html(number);
 
 }
 
@@ -63,3 +66,4 @@ function thumbs() {
 			}
 	});
 }
+

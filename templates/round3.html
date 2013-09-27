@@ -4,7 +4,7 @@
 	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">		
 		<link rel="stylesheet" href="../scripts/css/home.css">		
-		<link rel="stylesheet" href="../scripts/css/round3.css">
+		<link rel="stylesheet" href="../scripts/css/round3.css">	
 		<link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
 		<!-- <link rel="stylesheet" href="../bootstrap/css/bootstrap-theme.min.css"> -->
 		<script src="../bootstrap/js/bootstrap.min.js" rel="stylesheet" media="screen"></script>
@@ -65,7 +65,7 @@
 							<ul class="nav nav-pills">
 								<li><a href="answers.html">Answers	<span class="badge">0</span></a></li>
 								<li><a href="questions.html">Questions<span class="badge">0</span></a></li>
-								<li><a href="following.html">Following<span class="badge">0</span></a></li>								
+								<li><a href="following.html">Following<span class="badge badge-following">0</span></a></li>								
 								<li><a href="followers.html">Followed<span class="badge">0</span></a></li>
 							</ul>
 						</div>
@@ -265,7 +265,7 @@
 							          <div class="form-group">
 							            <div class="col-lg-10 col-lg-offset-3">
 							              <button class="btn btn-primary"><a class="cancel" href="game.html">Restart game</a></button> 
-							              <button type="submit" class="btn btn-success submit"><a href="round3.html">Ask guru</a></button> 
+							              <button type="submit" class="btn btn-success submit"><a data-toggle="modal" href="#myModal">Ask guru</a></button> 
 							              <button type="submit" class="btn btn-default submit"><a href="round3.html" style="color:#000">Ask friends	</a></button> 
 							            </div>
 							          </div>
@@ -274,6 +274,35 @@
 							    </div>
 							</div>
 						</div>
+
+						  <!-- Modal -->
+						  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+						    <div class="modal-dialog">
+						      <div class="modal-content">
+						        <div class="modal-header">
+						          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+						          <h4 class="modal-title">Modal title</h4>
+						        </div>
+						        <div class="modal-body">
+						        	<div class="row">
+					        		    <div class="col-lg-4">
+							        		<div class="well">Hello</div>
+							        	</div>
+							        	<div class="col-lg-4">
+							        		<div class="well">Hello</div>
+							        	</div>
+							        	<div class="col-lg-4">
+							        		<div class="well">Hello</div>
+							        	</div>
+						        	</div>    
+						        </div>
+						        <div class="modal-footer">
+						          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						          <button type="button" class="btn btn-primary">Save changes</button>
+						        </div>
+						      </div><!-- /.modal-content -->
+						    </div><!-- /.modal-dialog -->
+						  </div><!-- /.modal -->
 					</div>
 				</div>
 			</div>
@@ -283,7 +312,7 @@
 	    <script src="http://code.jquery.com/jquery.js"></script>
 	    <!-- Include all compiled plugins (below), or include individual files as needed -->
 	    <script src="../bootstrap/js/bootstrap.min.js"></script>
-	    <script src="../scripts/js/round3.js"></script>
+	    <script src="../scripts/js/round3.js"></script>    
 	    <script type="text/javascript">
 	    	// $("#new-q").popover();
 	    </script>
