@@ -66,11 +66,11 @@ function thumbs() {
 }
 
 
-function ask() {
+
+function ask () {
 	$(".btn.btn-success.submit").click(function(){
 		console.log($(this));
 		$(".hidden-info").css("display", "block");
-		$(".col-lg-12.answer").hide();
-		$(".panel-collapse.collapse.in").removeClass("in");
+		$(".row.answer").hide();
 	})
 }

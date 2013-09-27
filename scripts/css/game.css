@@ -120,5 +120,9 @@ a, a:hover{
 }
 
 .cancel{
-	color: #444;
+	/*color: #444;*/
+}
+
+.hidden-info {
+	display: none;
 }
