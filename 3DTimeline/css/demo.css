@@ -37,6 +37,10 @@ body {
     overflow-x: hidden;
 }
 
+.content .content-inner {
+	width: 500px;
+}
+
 a {
 	color: #555;
 	text-decoration: none;
