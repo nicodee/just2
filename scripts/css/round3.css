@@ -1,3 +1,19 @@
 .modal-dialog{
-	width: 80%;
+	/*width: 60%;*/
+}
+
+#decide .modal-content {
+	position: none;
+	background-color: transparent;
+	border:none;
+	border: none;
+	border-radius: none;
+	outline: 0;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	background-clip: none;
+}
+
+.btn-action.btn-trending a{
+	color: #444;
 }

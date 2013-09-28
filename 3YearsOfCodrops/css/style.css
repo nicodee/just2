@@ -8,7 +8,7 @@
 	/*background: url(../images/codrops_logo_trans.png) no-repeat 50% 50px;*/
 	background: no-repeat 50% 50px;
 	font-weight: 900;
-	border-top: 1px solid rgba(255,255,255, 0.3);
+	/*border-top: 1px solid rgba(255,255,255, 0.3);*/
 }
 
 .co-item {
@@ -224,7 +224,7 @@ a.co-link:active {
 	left: 50%;
 	margin: 0 0 0 -40px;
 	z-index: 1000;
-	top: 420px;
+	top: 440px;
 }
 
 .co-slider nav a {
@@ -296,4 +296,18 @@ a.co-link:active {
 	.container > header { padding: 10px; }
 	.co-date { font-size: 40px; } 
 	.co-date span:not(:last-child)::after { height: 40px; top: 0px; }
+}
+
+.co-info-back img {
+	height: 60px;
+	width: 60px;
+}
+
+.co-info-back img:hover {
+	color: #ad1d28;
+	/*cursor: progress;*/
+}
+
+.co-info .co-info-back {
+	background-color: #108a93;
 }

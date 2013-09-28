@@ -126,3 +126,7 @@ a, a:hover{
 .hidden-info {
 	display: none;
 }
+
+.btn-action.btn-trending a{
+	color: #444;
+}

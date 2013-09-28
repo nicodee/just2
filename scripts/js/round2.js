@@ -22,12 +22,12 @@ function perform_action() {
 
 		else if(action=="proceed"){
 			var proceed_panel = $(".panel."+panel);
-			console.log(proceed_panel.attr("class"));
+			proceed(action, proceed_panel);
 		}
 
 		else if(action=="follow"){
 			var follow_panel = $(".panel."+panel);
-			console.log(follow_panel.attr("class"));
+			follow(action, follow_panel);
 		}
 	})
 }
@@ -36,12 +36,15 @@ function burn(action, burnt_panel) {
 	burnt_panel.remove();
 }
 
-function proceed () {
-
+function proceed (action, proceed_panel) {
+	var object = proceed_panel.find(".panel-heading");
+	object.find("h4");
+	console.log(object.find("h4").append("<span class='glyphicon glyphicon-ok pull-right'></span>"));
 }
 
-function follow () {
-
+function follow(action, follow_panel, panel) {
+  var number = parseInt($(".badge-following").text()) + 1;
+  $(".badge-following").html(number);
 }
 
 function thumbs() {
@@ -65,12 +68,12 @@ function thumbs() {
 	});
 }
 
-
-
 function ask () {
 	$(".btn.btn-success.submit").click(function(){
 		console.log($(this));
 		$(".hidden-info").css("display", "block");
 		$(".row.answer").hide();
+		$(".panel-collapse.collapse.in").removeClass("in");
+		$(".badge-questions").html("6");
 	})
 }

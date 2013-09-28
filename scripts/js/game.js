@@ -7,5 +7,6 @@ function ask () {
 		console.log($(this));
 		$(".hidden-info").css("display", "block");
 		$(".row.answer").hide();
+		$(".badge-questions").html("2");
 	})
 }
