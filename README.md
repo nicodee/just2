@@ -22,7 +22,8 @@ And also let us inform each other on what we are individually working on to avoi
 
 
 Libraries used: 
-  - The theme is "Amelia" from bootswatch http://bootswatch.com/amelia
+  - Bootstrap -  http://getbootstrap.com
+  - Theme - "Amelia" from bootswatch http://bootswatch.com/amelia
   - Codrops
       1. http://tympanus.net/Tutorials/3DTimeline/
       2. http://tympanus.net/Development/3YearsOfCodrops/
