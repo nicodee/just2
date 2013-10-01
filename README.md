@@ -21,6 +21,9 @@ I'll like you guys to go through it and decide which pages you want to work on s
 And also let us inform each other on what we are individually working on to avoid conflict.
 
 
-NB: 
-  -The theme is "Amelia" from bootswatch
-  http://bootswatch.com/amelia/
+Libraries used: 
+  - Bootstrap -  http://getbootstrap.com
+  - Theme - "Amelia" from bootswatch http://bootswatch.com/amelia
+  - Codrops
+      1. http://tympanus.net/Tutorials/3DTimeline/
+      2. http://tympanus.net/Development/3YearsOfCodrops/
