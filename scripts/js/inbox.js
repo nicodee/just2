@@ -30,11 +30,13 @@ $(document).ready(function() {
 		// $('#details').show();
 		$('#content').hide('slide', {direction: 'left'}, 1000);
 		$('#details').show('slide', {direction: 'right'}, 1000);
+		$(".kevin").text("Kevin");
 	});
 
 	$('#back').on("click", function() {
 		$('#content').show('slide', {direction: 'left'}, 1000);
 		$('#details').hide('slide', {direction: 'right'}, 1000);
+		$(".kevin").text("Inbox");
 	});
 });
 
